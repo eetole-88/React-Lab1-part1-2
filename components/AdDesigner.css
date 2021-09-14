@@ -1,0 +1,46 @@
+.adTitle {
+  font-family: "Caveat", cursive;
+  font-weight: bolder;
+  font-size: 32px;
+}
+
+.voteBox,
+.darkTheme {
+  width: 40%;
+  text-align: center;
+  padding-top: 20px;
+  box-shadow: 0 0 6px gray;
+}
+
+.voteBox {
+  border: 2px solid #222;
+  color: #000;
+}
+
+.darkTheme {
+  border: 2px solid white;
+  background-color: #222;
+  color: #fff;
+}
+
+.flavor {
+  font-family: "Caveat", cursive;
+  font-weight: bolder;
+}
+
+button {
+  color: white;
+  background-color: #0e3c7e;
+  border-style: none;
+  border-radius: 8%;
+  margin: 3px;
+  padding: 3px;
+}
+
+button:active {
+  background-color: #1e60a9;
+}
+
+:disabled {
+  background-color: gray;
+}
